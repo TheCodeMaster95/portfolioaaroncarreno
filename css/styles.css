@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0
+}
+
+@font-face{
+	font-family: "Quesha";
+	src: url("fonts/QUESHA.ttf");
+}
+
+@font-face{
+	font-family: "Gothic";
+	src: url("fonts/GOTHIC.TTF");
+}
+
+body{
+	background: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4{
+	text-transform: uppercase;
+	font-family: Quesha, verdana, sans-serif
+}
+
+span, ul, p, small{ font-family: Gothic, verdana, sans-serif }
+
+/*--- Begin Class Styles ---*/
+
+.align-top{ vertical-align: top }
+.align-middle{ vertical-align: middle }
+.align-bottom{ vertical-align: bottom }
+
+.container, .row, .content{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.child{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	display: table-cell
+}
+
+.figure{ display: block }
+
+.header, .footer{
+	background: #000;
+	color: #fff;
+}
+
+.inline-block{
+	display: inline-block;
+	margin: 1rem auto;
+	padding: 0
+}
+
+.ico{ font-size: 3rem }
+
+.link-project{ 
+	text-decoration: none;
+	color: #000
+}
+
+.parent{
+	height: 300px;
+	width: 100%;
+	display: table
+}
+
+.text-white{ color: #fff }
+.text-right{ text-align: right}
+.text-left{ text-align: left}
+
+.width-100{ width: 100% }
+
+.max-width-250{ max-width: 250px }
+.max-width-300{ max-width: 300px }
+.max-width-350{ max-width: 350px }
+.max-width-500{ max-width: 500px }
+.max-width-550{ max-width: 550px }
+.max-width-600{ max-width: 600px }
+
+/*--- End Class Styles ---*/
+
+.header .figure{ 
+	max-width: 150px; 
+	margin: auto
+}
+
+.header .figure  img{
+	max-width: 150px; 
+	max-height: 150px;
+	display: block;
+	border-radius: 50%;
+}
+
+.title-header{ font-size: 40px }
+
+.header nav ul{ list-style: none }
+
+.header nav ul li{
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	padding: 1rem 0;
+	text-align: center
+}
+
+.header nav ul li a, .footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: Gothic, sans-serif, verdana
+}
+
+.header nav ul li:hover{ 
+	background: #a9a9a9
+}
+
+.title-content{ font-size: 50px }
+
+.title-content, .footer{
+	padding: 4rem 0;
+	text-align: center
+}
+
+.content .figure{
+	line-height: 0;
+	padding: 1rem 0;
+	background: #fff;
+	border: solid 5px #a9a9a9;
+	border-radius: 1rem
+}
+
+.content .figure img{
+	width: 100%;
+	height: 250px;
+}
+
+.content .profile, .content .project{ 
+	padding: 0 
+}
+
+.content .profile img{
+	height: 100%
+}
+
+.content .project img{
+	height: 200px;
+}
+
+.article p{
+	padding: 0 1rem;
+	text-align: justify;
+	font-size: 20px
+
+}
+
+.title-caption{ font-size: 30px }
+
+.caption span{ 
+	text-align: center; 
+	padding: 0 0.5rem
+}
+
+.footer ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 1rem 0.5rem; 
+}
+
+/*--- @media ---*/
+
+@media (max-width: 960px){
+    
+	
+}
+
+@media (max-width: 860px){
+    
+	
+}
+
+@media (max-width: 760px){
+		
+	
+}
+
+@media (max-width: 660px){
+	
+	
+}
+@media (max-width: 360px){
+
+	.header nav ul li, 
+	.footer ul li{
+		display: block;
+	}
+	
+	.header nav ul li{
+		width: 100%;
+	}
+
+}
+
+
+
+
+
