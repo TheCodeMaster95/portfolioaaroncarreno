@@ -18,6 +18,7 @@
 	background: #424242;
 	list-style: none;
 	overflow: hidden;
+	height: 20px
 }
 
 .slidesjs-pagination li{
@@ -28,7 +29,7 @@
 .slidesjs-pagination li a{
 	display: block;
 	color: #fff;
-	padding: 6px 15px;
+	padding: 0 15px;
 	text-decoration: none
 }
 
@@ -46,8 +47,9 @@
 	text-decoration: none;
 	display: inline-block;
 	float: right;
-	padding: 8.5px 0;
+	padding: 0;
 	width: 40px;
+	height: 20px;
 	text-align: center
 }
 
